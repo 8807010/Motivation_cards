@@ -1,0 +1,114 @@
+// main: index.less
+
+.album {
+    background-color: rgb(253, 255, 106);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    height: 100vh;
+    
+    &__title {
+        font-size: 80px;
+        font-family: sans-serif;
+        color: #09e8e8;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 0;
+        padding: 20px;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        border: 2px solid rgb(86, 235, 1);
+        background-color: rgb(7, 255, 234);
+        padding: 20px;
+        box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+        border-radius: 10px;
+        position: absolute;
+        &:hover {
+            z-index: 9999;
+            transform: scale(1.2);
+            transition: all .5s ease-in;
+            cursor: pointer;
+        }
+    }
+    &__item-1 {
+        width: 24%;
+        z-index: 1;
+        transform: rotate(-17deg);
+        top: 55%;
+        left: 3%;
+    }
+    &__item-2 {
+        width: 24%;
+        z-index: 1;
+        transform: rotate(9deg);
+        top: 53%;
+        left: 73%;
+    }
+    &__item-3 {
+        width: 18%;
+        z-index: 1;
+        transform: rotate(10deg);
+        top: 4%;
+        left: 32%;
+    } 
+    &__item-4 {
+        width: 20%;
+        z-index: 2;
+        transform: rotate(-48deg);
+        top: 30%;
+        left: 16%;
+    }
+    &__item-5 {
+        width: 25%;
+        z-index: 1;
+        transform: rotate(-2deg);
+        top: 55%;
+        left: 30%;
+    }
+    &__item-6 {
+        width: 25%;
+        z-index: 2;
+        transform: rotate(-20deg);
+        top: 2%;
+        left: 48%;
+    }
+    &__item-7 {
+        width: 24%;
+        z-index: 2;
+        transform: rotate(0deg);
+        top: 37%;
+        left: 51%;
+    }
+    &__item-8 {
+        width: 25%;
+        z-index: 2;
+        transform: rotate(23deg);
+        top: 17%;
+        left: 2%;
+    }
+    &__item-9 {
+        width: 25%;
+        z-index: 2;
+        transform: rotate(-21deg);
+        top: 22%;
+        left: 67%;
+    }
+    &__item-10 {
+        width: 25%;
+        z-index: 1;
+        transform: rotate(2deg);
+        top: 3%;
+        left: 74%;
+    }
+    .album__desc {
+        font-size: 41px;
+        color: #000;
+        text-align: center;
+        font-family: cursive;
+    }
+    }
+
