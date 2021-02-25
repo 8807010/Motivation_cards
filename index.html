@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> 
+    <link rel="stylesheet" href="./libraries/WOW-master/css/libs/animate.css">
     <title>Motivation_cards</title>
 </head>
 <body>
     <div class="album"> 
-        <h1 class="album__title">Why not?</h1>
+        <h1 class="album__title wow animate__fadeInTopLeft">Why not?</h1>
         <div class="album__item album__item-1">
             <img class="album__img" src="./images/Motivation-1.jpg" alt="">
             <p class="album__desc">Заставляй себя</p>
@@ -52,6 +54,10 @@
         </div>
     </div>
     
+    <script type="text/javascript" src="./libraries/WOW-master/dist/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 
 </body>
 </html>
